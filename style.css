@@ -1,0 +1,61 @@
+/* se aplica el color al fonde de toda la pagina  */
+body
+{
+    background-color:rgb(240, 207, 22);
+}
+/* es todo el apartado de catalogo */
+.catalogo
+{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 30px;  
+}
+/* Cada tarjeta individual del catálogo */
+.card
+{
+    background-color: white;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 8px;
+}
+.producto-img
+{
+    width: 200px;
+}
+section
+{
+    margin: 100px;
+}
+/* el input es del bucador */
+input
+{
+    width: 300px;
+    height: 20px;
+    border-radius: 15px;
+    text-align: center;
+   
+    
+}
+
+.detalle
+{
+    background-color: white;
+}
+
+nav a {
+    font-family: 'Segoe UI', sans-serif;
+    font-size: 17px;
+    font-weight: 500; 
+    letter-spacing: 0.5px; 
+    text-transform: uppercase; 
+    text-decoration: none;
+}
+a
+{
+   font-family: 'Segoe UI', sans-serif;
+    font-size: 17px;
+    font-weight: 500; 
+    letter-spacing: 0.5px; 
+    text-transform: uppercase; 
+    text-decoration: none; 
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>agregar un producto</title>
+    <link rel="stylesheet" href="../styles.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="agregar.css">
+</head>
+<body>
+    <h1> Alta de nuevos productos</h1>
+    <div class="form-goup">
+        <label>Nombre del personaje</label>
+        <input type="text" id="titulo" placeholder="Ingresa el nombre del personaje">
+    </div>
+    <div>
+        <label>titan</label>
+        <input type="text" id="titan" placeholder="ingresa el nombre del titan">
+    </div>
+    <div>
+        <label>especie</label>
+        <input type="text" id="especie" placeholder="ingresa el nombre de la especie">
+    </div>
+     <div>
+        <label>edad</label>
+        <input type="text" id="edad" placeholder="ingresa la edad">
+    </div>
+     <div>
+        <label>familia</label>
+        <input type="text" id="familia" placeholder="ingresa el nombre de la failia">
+    </div>
+    
+    <button class="btn-agregar" onclick="agregar()">Agregar producto</button>
+    <button class="btn-back" onclick="window.location.href='index.html'">-come back</button>
+    <div id="mensaje-exito"></div>
+    <script src="agregar.js"></script>
+</body>
+</html>

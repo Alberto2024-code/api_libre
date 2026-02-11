@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Administrador - Attack on Titan</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<nav>
+  <a href="index.html">⬅ Volver al catálogo</a>
+</nav>
+
+<h1>Panel de Administración</h1>
+
+<!-- FORMULARIO -->
+<section class="formulario">
+  <h2>Agregar / Editar Personaje</h2>
+
+  <!-- ID oculto para edición -->
+  <input type="hidden" id="id">
+
+  <input type="text" id="name" placeholder="Nombre" required>
+  <input type="text" id="img" placeholder="URL de imagen">
+  <input type="text" id="alias" placeholder="Tipo de Titán">
+  <input type="text" id="species" placeholder="Especie" required>
+  <input type="number" id="age" placeholder="Edad">
+  <input type="text" id="height" placeholder="Altura">
+  <input type="text" id="family" placeholder="Familia">
+
+  <button id="guardar">Guardar</button>
+</section>
+
+<hr>
+
+<!-- TABLA -->
+<section>
+  <h2>Personajes registrados</h2>
+
+  <table border="1" width="100%">
+    <thead>
+      <tr>
+        <th>Nombre</th>
+        <th>Titán</th>
+        <th>Especie</th>
+        <th>Acciones</th>
+      </tr>
+    </thead>
+
+    <tbody id="tabla">
+      <!-- JS inserta filas aquí -->
+    </tbody>
+  </table>
+</section>
+
+<script src="admin.js"></script>
+</body>
+</html>
+
